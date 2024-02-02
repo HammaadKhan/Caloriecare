@@ -14,7 +14,7 @@ include 'db.php';
 <table class="table table-hover table-bordered table-striped">
     <thead>
         <tr>
-        <th>Sr. No.</th>
+        <!-- <th>Sr. No.</th> -->
             <th>ID</th>
             <th>FirstName</th>
             <th>LastName</th>
