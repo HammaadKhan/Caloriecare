@@ -21,7 +21,7 @@ if(isset($_POST['add_students'])){
         }
 
         else{
-            header('location:index.php?insert_msg=Youe data has been inserted');
+            header('location:index.php?insert_msg=Your data has been inserted');
         }
         
 
