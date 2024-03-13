@@ -109,7 +109,7 @@ include 'db.php';
     </div>
 </form>
 
-<form action="insert_data.php" method="post">
+<!-- <form action="insert_data.php" method="post">
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -141,7 +141,7 @@ include 'db.php';
             </div>
         </div>
     </div>
-</form>
+</form> -->
 <?php 
 include 'footer.php';
 ?>
