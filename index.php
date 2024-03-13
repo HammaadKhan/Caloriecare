@@ -24,7 +24,7 @@ include 'db.php';
 
         </tr>
     </thead>
-    <tbody>
+    <!-- <tbody> -->
 
         <?php 
         $query = "select * from students";

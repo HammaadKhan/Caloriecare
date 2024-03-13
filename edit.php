@@ -30,7 +30,7 @@ if (isset($_GET["id"])) {
     <title>Edit Task</title>
 </head>
 
-<!-- <body>
+<body>
     <h2>Edit Task</h2>
     <form method="post" action="edit.php">
         <input type="hidden" name="id" value="<?php echo $task['id']; ?>">
@@ -41,6 +41,6 @@ if (isset($_GET["id"])) {
         <button type="submit">Update Task</button>
     </form>
     <a href="index.php">Back to Tasks</a>
-</body> -->
+</body>
 
 </html>
