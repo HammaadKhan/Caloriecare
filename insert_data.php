@@ -1,6 +1,6 @@
 <?php 
 include 'db.php';
-if(isset($_POST['add_students'])){
+// if(isset($_POST['add_students'])){
     
      $f_name = $_POST['f_name'];
     $l_name = $_POST['l_name'];
