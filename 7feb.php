@@ -109,7 +109,7 @@ $blogs = $stmt->fetch(PDO::FETCH_ASSOC);
                 </div>
 
                 <!-- Author -->
-                <div
+                <!-- <div
                     class="mb-16 flex rounded-2.5xl border border-jacarta-100 bg-white p-8 dark:border-jacarta-600 dark:bg-jacarta-700">
                     <img src="./assets/front/img/uploads/<?=$admin['admin_image'] ?>" alt="author"
                         class="mr-4 h-16 w-16 shrink-0 self-start rounded-lg md:mr-8 md:h-[9rem] md:w-[9rem]" />
@@ -149,7 +149,7 @@ $blogs = $stmt->fetch(PDO::FETCH_ASSOC);
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- end related -->
         </div>
