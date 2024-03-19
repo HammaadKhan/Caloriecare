@@ -35,15 +35,15 @@ $('.widget-content .message').on('click', function () {
   
   })
   
-  $('.widget-content .custom-width-padding-background').on('click', function () {
-    swal({
-      title: 'Custom width, padding, background.',
-      width: 600,
-      padding: "7em",
-      customClass: "background-modal",
-      background: '#fff url(../assets/img/sweet-bg.jpg) no-repeat 100% 100%',
-    })
-  })
+  // $('.widget-content .custom-width-padding-background').on('click', function () {
+  //   swal({
+  //     title: 'Custom width, padding, background.',
+  //     width: 600,
+  //     padding: "7em",
+  //     customClass: "background-modal",
+  //     background: '#fff url(../assets/img/sweet-bg.jpg) no-repeat 100% 100%',
+  //   })
+  // })
   
   $('.widget-content .warning.confirm').on('click', function () {
     swal({
