@@ -122,18 +122,18 @@ $('.widget-content .message').on('click', function () {
   
   })
   
-  $('.widget-content .custom-image').on('click', function () {
-    swal({
-      title: 'Sweet!',
-      text: 'Modal with a custom image.',
-      imageUrl: '../assets/img/thumbs-up.jpg',
-      imageWidth: 400,
-      imageHeight: 200,
-      imageAlt: 'Custom image',
-      animation: false,
-      padding: '2em'
-    })
-  })
+  // $('.widget-content .custom-image').on('click', function () {
+  //   swal({
+  //     title: 'Sweet!',
+  //     text: 'Modal with a custom image.',
+  //     imageUrl: '../assets/img/thumbs-up.jpg',
+  //     imageWidth: 400,
+  //     imageHeight: 200,
+  //     imageAlt: 'Custom image',
+  //     animation: false,
+  //     padding: '2em'
+  //   })
+  // })
   
   $('.widget-content .timer').on('click', function () {
     swal({
