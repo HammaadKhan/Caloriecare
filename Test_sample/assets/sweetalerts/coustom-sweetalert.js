@@ -185,29 +185,29 @@ $('.widget-content .message').on('click', function () {
   
   $('.widget-content .dynamic-queue').on('click', function () {
     const ipAPI = 'https://api.ipify.org?format=json'
-    // swal.queue([{
-    //   title: 'Your public IP',
-    //   confirmButtonText: 'Show my public IP',
-    //   text:
-    //     'Your public IP will be received ' +
-    //     'via AJAX request',
-    //   showLoaderOnConfirm: true,
-    //   preConfirm: function() {
-    //     return fetch(ipAPI)
-    //       .then(function (response) { 
-    //           return response.json();
-    //       })
-    //       .then(function(data) {
-    //          return swal.insertQueueStep(data.ip)
-    //       })
-    //       .catch(function() {
-    //         swal.insertQueueStep({
-    //           type: 'error',
-    //           title: 'Unable to get your public IP'
-    //         })
-    //       })
-    //   }
-    // }])
+    swal.queue([{
+      title: 'Your public IP',
+      confirmButtonText: 'Show my public IP',
+      text:
+        'Your public IP will be received ' +
+        'via AJAX request',
+      showLoaderOnConfirm: true,
+      preConfirm: function() {
+        return fetch(ipAPI)
+          .then(function (response) { 
+              return response.json();
+          })
+          .then(function(data) {
+             return swal.insertQueueStep(data.ip)
+          })
+          .catch(function() {
+            swal.insertQueueStep({
+              type: 'error',
+              title: 'Unable to get your public IP'
+            })
+          })
+      }
+    }])
   
   })
   
