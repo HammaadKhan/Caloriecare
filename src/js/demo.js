@@ -78,15 +78,15 @@ $(function () {
      * @param String cls the layout class to toggle
      * @returns void
      */
-    // function changeLayout(cls) {
-    //     $('body').toggleClass(cls)
-    //     $layout.fixSidebar()
-    //     if ($('body').hasClass('fixed') && cls == 'fixed') {
-    //         $pushMenu.expandOnHover()
-    //         $layout.activate()
-    //     }
-    //     $controlSidebar.fix()
-    // }
+    function changeLayout(cls) {
+        $('body').toggleClass(cls)
+        $layout.fixSidebar()
+        if ($('body').hasClass('fixed') && cls == 'fixed') {
+            $pushMenu.expandOnHover()
+            $layout.activate()
+        }
+        $controlSidebar.fix()
+    }
 
     /**
      * Replaces the old skin with the new skin
