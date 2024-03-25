@@ -99,7 +99,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
                                 <span class="text-sm dark:text-jacarta-200">15</span>
                             </div> ->
                         </figure>
-                        <!-- <div class="mt-7 flex items-center justify-between">
+                        <div class="mt-7 flex items-center justify-between">
                             <a href="asset?id=<?= $collection['asset'] ?>">
                                 <span
                                     class="font-display text-base text-jacarta-700 hover:text-accent dark:text-white"><?= $collection['nft_name'] ?></span>
@@ -128,7 +128,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
                                     </button>
                                 </div>
                             </div> -->
-                        </div> -->
+                        </div>
                         <div class="mt-2 text-sm">
                             <span class="mr-1 text-jacarta-700 dark:text-jacarta-200">From <?=$collection['short_name']?><?= $collection['amount']?>
                             </span>
