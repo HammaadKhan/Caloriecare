@@ -134,7 +134,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
                             </span>
                             <span class="text-jacarta-500 dark:text-jacarta-300"><?=$collection['minted'] ?>/<?=$collection['level'] ?></span>
                         </div>
-
+<!-- 
                         <div class="mt-2 flex items-center justify-between text-sm font-medium tracking-tight">
                             <div class="flex flex-wrap items-center">
                                 <a href="user?id=<?= $collection['username'] ?>" class="mr-2 shrink-0">
@@ -147,7 +147,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
                                 </a>
                             </div>
                             <!--<span class="text-sm dark:text-jacarta-300"><?= $collection['nft_status'] ?></span>-->
-                        </div>
+                        </div> -->
                     </div>
                 </article>
                 <?php
