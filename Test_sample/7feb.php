@@ -104,7 +104,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
                                 <span
                                     class="font-display text-base text-jacarta-700 hover:text-accent dark:text-white"><?= $collection['nft_name'] ?></span>
                             </a>
-                            <div class="dropup rounded-full hover:bg-jacarta-100 dark:hover:bg-jacarta-600">
+                            <!-- <div class="dropup rounded-full hover:bg-jacarta-100 dark:hover:bg-jacarta-600">
                                 <a href="#"
                                     class="dropdown-toggle inline-flex h-8 w-8 items-center justify-center text-sm"
                                     role="button" id="itemActions" data-bs-toggle="dropdown" aria-expanded="false">
@@ -127,7 +127,7 @@ include($_SERVER['DOCUMENT_ROOT']. "/include/notified.php");
                                         Report
                                     </button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="mt-2 text-sm">
                             <span class="mr-1 text-jacarta-700 dark:text-jacarta-200">From <?=$collection['short_name']?><?= $collection['amount']?>
