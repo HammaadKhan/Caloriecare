@@ -13,10 +13,10 @@
     font-size: 20px;
     letter-spacing: 1px;
 }
-.modal-content .modal-header svg {
+/* .modal-content .modal-header svg {
     width: 17px;
     color: #e3e4eb;
-}
+} */
 .modal-content .modal-body { padding: 26px 26px; }
 .modal-content .modal-body a:not(.btn) {
     color: #4361ee;
