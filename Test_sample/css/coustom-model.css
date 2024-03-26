@@ -22,12 +22,12 @@
     color: #4361ee;
     font-weight: 600;
 }
-.modal-content .modal-body p {
+/* .modal-content .modal-body p {
     color: #888ea8;
     letter-spacing: 1px;
     font-size: 14px;
     line-height: 22px;
-}
+} */
 .modal-content .modal-body p:last-child { margin-bottom: 0; }
 .modal-content .modal-body p:not(:last-child) { margin-bottom: 10px; }
 .modal-content .modal-footer {
