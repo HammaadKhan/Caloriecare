@@ -44,11 +44,11 @@
     font-weight: 700;
     border: 1px solid #e8e8e8;
 }
-/* .modal-content .modal-footer .btn.btn-primary {
+.modal-content .modal-footer .btn.btn-primary {
     background-color: #4361ee;
     color: #fff;
     border: 1px solid #4361ee;
-} */
+}
 
 /*
     Modal Success
