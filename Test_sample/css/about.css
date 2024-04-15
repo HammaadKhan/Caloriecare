@@ -100,9 +100,9 @@
 	align-self: center;
 } */
 
-/* .about__container .is-vertically-aligned-bottom {
+.about__container .is-vertically-aligned-bottom {
 	align-self: end;
-} */
+}
 
 .about__section {
 	background: transparent;
