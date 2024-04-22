@@ -28,20 +28,20 @@ $(function () {
      *
      * @type Array
      */
-    // var mySkins = [
-    //     'skin-blue',
-    //     'skin-black',
-    //     'skin-red',
-    //     'skin-yellow',
-    //     'skin-purple',
-    //     'skin-green',
-    //     'skin-blue-light',
-    //     'skin-black-light',
-    //     'skin-red-light',
-    //     'skin-yellow-light',
-    //     'skin-purple-light',
-    //     'skin-green-light'
-    // ]
+    var mySkins = [
+        'skin-blue',
+        'skin-black',
+        'skin-red',
+        'skin-yellow',
+        'skin-purple',
+        'skin-green',
+        'skin-blue-light',
+        'skin-black-light',
+        'skin-red-light',
+        'skin-yellow-light',
+        'skin-purple-light',
+        'skin-green-light'
+    ]
 
     /**
      * Get a prestored setting
@@ -64,13 +64,13 @@ $(function () {
      * @param String val Value of the setting
      * @returns void
      */
-    // function store(name, val) {
-    //     if (typeof (Storage) !== 'undefined') {
-    //         localStorage.setItem(name, val)
-    //     } else {
-    //         window.alert('Please use a modern browser to properly view this template!')
-    //     }
-    // }
+    function store(name, val) {
+        if (typeof (Storage) !== 'undefined') {
+            localStorage.setItem(name, val)
+        } else {
+            window.alert('Please use a modern browser to properly view this template!')
+        }
+    }
 
     /**
      * Toggles layout classes
@@ -78,15 +78,15 @@ $(function () {
      * @param String cls the layout class to toggle
      * @returns void
      */
-    // function changeLayout(cls) {
-    //     $('body').toggleClass(cls)
-    //     $layout.fixSidebar()
-    //     if ($('body').hasClass('fixed') && cls == 'fixed') {
-    //         $pushMenu.expandOnHover()
-    //         $layout.activate()
-    //     }
-    //     $controlSidebar.fix()
-    // }
+    function changeLayout(cls) {
+        $('body').toggleClass(cls)
+        $layout.fixSidebar()
+        if ($('body').hasClass('fixed') && cls == 'fixed') {
+            $pushMenu.expandOnHover()
+            $layout.activate()
+        }
+        $controlSidebar.fix()
+    }
 
     /**
      * Replaces the old skin with the new skin
